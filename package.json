@@ -1,28 +1,26 @@
 {
-  "name": "rename",
-  "version": "1.0.0",
+  "name": "reset-ext",
+  "version": "1.0.1",
   "description": "",
   "main": "./src/index.js",
   "bin": {
-    "rn": "bin/cli.js"
+    "reset-ext": "bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iyolee/ReName.git"
+    "url": "git+https://github.com/iyolee/reset-ext.git"
   },
   "keywords": [
-    "npm"
+    "NPM package"
   ],
   "author": "leeper",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iyolee/ReName/issues"
+    "url": "https://github.com/iyolee/reset-ext/issues"
   },
-  "homepage": "https://github.com/iyolee/ReName#readme",
-  "dependencies": {
-    "mocha": "^4.1.0"
-  }
+  "homepage": "https://github.com/iyolee/reset-ext#readme",
+  "dependencies": {}
 }

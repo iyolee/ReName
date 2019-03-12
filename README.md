@@ -1,21 +1,34 @@
-# ReName
-> ReName 是一个可以批处理更改文件后缀名的npm包。
+# reset-ext
+
+> reset-ext is a NPM package can batch change file extensions.
 
 ### Installation
+
 ```
-npm install rename -g
+npm install reset-ext -g
 ```
 
 ### Usage
-查看版本
+
+check version
+
 ```
-rn -v
+reset-ext -v
 ```
-处理文件
+
+batch file
+
 ```
-rn [path] [prevFilename] [newFilename]
+reset-ext [path] [prevFilename] [newFilename]
 ```
-用例
+
+### Example
+
 ```
-rn . index.js index.ts
+reset-ext . index.js index.ts
+reset-ext ./example .js .ts
 ```
+
+### License
+
+reset-ext is MIT licensed.
